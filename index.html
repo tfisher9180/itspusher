@@ -31,6 +31,74 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div id="bookme" class="modal fade">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        				<h4 class="modal-title">Contact me</h4>
+        				<p class="text-muted">Fill out the fields below to send me a message</p>
+        			</div>
+        			<div class="modal-body">
+        				<form>
+        					<div class="form-group">
+        						<div class="input-group">
+        							<span class="input-group-addon"><i class="fa fa-user"></i></span>
+        							<input type="text" name="name" class="form-control" placeholder="Name" />
+        						</div>
+        					</div>
+        					<div class="form-group">
+        						<div class="input-group">
+        							<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+        							<input type="text" name="email" class="form-control" placeholder="E-mail Address" />
+        						</div>
+        					</div>
+        					<div class="form-group">
+        						<label class="control-label">Message</label>
+        						<textarea name="message" class="form-control" rows="5"></textarea>
+        					</div>
+        					<div class="form-group">
+        						<button type="submit" class="btn btn-primary">Send message&nbsp; <i class="fa fa-arrow-circle-right"></i></button>
+        					</div>
+        				</form>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <!--<div id="bookme" class="modal fade">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<h4 class="modal-title">Contact me</h4>
+        				<p class="text-muted">Fill out the fields below to send me a message</p>
+        			</div>
+        			<div class="modal-body">
+        				<form>
+        					<div class="form-group">
+        						<div class="input-group">
+        							<span class="input-group-addon"><i class="fa fa-user"><i></span>
+        							<input type="text" name="name" class="form-control" placeholder="Name" />
+        						</div>
+        					</div>
+        					<div class="form-group">
+        						<div class="input-group">
+        							<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+        							<input type="text" name="email" class="form-control" placeholder="E-mail Address" />
+        						</div>
+        					</div>
+        					<div class="form-group">
+        						<textarea name="message" class="form-control" rows="3"></textarea>
+        					</div>
+        					<div class="form-group">
+        						<button type="submit" class="btn-primary">Send Message</button>
+        					</div>
+        				</form>
+        			</div>
+        		</div>
+        	</div>
+        </div>-->
+
         <nav class="navbar navbar-default navbar-fixed-top">
         	<div class="container">
         		<div class="navbar-header">
@@ -40,6 +108,7 @@
         			</a>
         		</div>
         		<div class="navbar-collapse collapse">
+        			<button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#bookme"><i class="fa fa-book"></i>&nbsp;BOOK ME</button>
         			<ul class="nav navbar-nav navbar-right navbar-social">
         				<li><a href="#">
         					<div class="circle">
@@ -71,14 +140,6 @@
         						<i class="fa fa-youtube"></i>
         					</div>
         				</a></li>
-        			</ul>
-        			<ul class="nav navbar-nav navbar-right">
-        				<li class="active"><a href="#header">Home</a></li>
-        				<li><a href="#listen">Listen</a></li>
-        				<li><a href="#">Events</a></li>
-        				<li><a href="#">Store</a></li>
-        				<li><a href="#">About</a></li>
-        				<li><a href="#">Contact</a></li>
         			</ul>
         		</div>
         	</div>
